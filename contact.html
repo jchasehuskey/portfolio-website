@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <!-- <link rel="icon" type="image/png" href="./images/favicon-32x32.png" /> -->
+    <link rel="shortcut icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <p class="page-header_item page-header_name">Chase Huskey</p>
+      <!-- <img src="http://via.placeholder.com/200x70" alt="logo" /> -->
+
+      <nav class="main-navigation page-header_item">
+        <ul role="menubar" class="nav-list">
+          <li role="presentation">
+            <a link href="index.html" role="menu-item" class="nav-links"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a link href="about.html" role="menu-item" class="nav-links"
+              >About me</a
+            >
+          </li>
+          <li role="presentation">
+            <a link href="projects.html" role="menu-item" class="nav-links"
+              >My projects</a
+            >
+          </li>
+          <li role="presentation">
+            <a link href="contact.html" role="menu-item" class="nav-links"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="block-content__header">Contact</h1>
+    <div class="block-content__text">
+      My GmbH<br />
+      Denver,Co <br />
+      <br />
+      Prefer a phone chat?
+      <a
+        class="block-content__link link-button link-button-small"
+        href="tel:8702431598"
+        >Click to call</a
+      >
+      <!-- aria-hidden:"true" -->
+      <br />
+      <!-- Place skype below: "skype:mylink" -->
+      Skype info <br />
+      <a
+        class="block-content__link link-button link-button-small"
+        href="mailto:jchase.huskey@gmail.com"
+        target="blank"
+        >Email me</a
+      ><br />
+      <a href="mailto:jchase.huskey@gmail.com">Contact me</a>
+    </div>
+    <form
+      id="contact-form"
+      action="#"
+      method="post"
+      class="block-content__text"
+    >
+      <label for="email" class="standard-label">*Email:</label>
+      <input id="email" type="email" required />
+
+      <label for="tel" class="standard-label">Phone number: </label>
+      <input id="tel" type="tel" />
+
+      <label for="message" class="standard-label">*Message:</label>
+      <textarea id="message" maxlength="240" required></textarea>
+
+      <input type="submit" value="Send message" />
+    </form>
+    <!-- <script src="/js/tota11y.min.js"></script> -->
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>

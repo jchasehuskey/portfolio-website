@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-/* 
+/* /* 
 FONT COLORS
 Text Color (Dark Gray): #333
 Primary Color (Purple): #357b70;
@@ -379,6 +379,10 @@ About.html
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+}
+
+.twitter-icon {
+  width: 30px !important;
 }
 
 /* ***************

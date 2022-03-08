@@ -292,6 +292,10 @@ About.html
   text-align: center;
 }
 
+.twitter-icon {
+  width: 30px !important;
+}
+
 /* ***************
 GENERAL CSS
 ***************** */

@@ -20,9 +20,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-  <body>
+  <body class="body-index">
     <header class="page-header">
       <p class="page-header_item page-header_name">Chase Huskey</p>
 
@@ -50,18 +50,19 @@
       </nav>
     </header>
 
-    <section>
+    <section class="section-index">
       <div class="profile">
+        <!-- <div class="img-container"> -->
         <img
           src="images/headshot.jpg"
           class="profile_portrait"
           alt="a photo of me"
         />
-        <div class="block-content">
-          <h1 class="block-content__header">Hello World!</h1>
-          <p class="block-content__text">
-            My name is Chase Huskey I am a <span>web developer</span> from
-            Denver
+        <!-- </div> -->
+        <div class="block-content_index box-shadow">
+          <h1 class="block-content__header">Hi. I'm Chase Huskey.</h1>
+          <p class="block-content__text margin-bottom_double">
+            I am a <span class="web-text">web developer</span> from Denver
           </p>
           <a href="#" class="block-content__link link-button"
             >Check out my work</a
@@ -71,12 +72,24 @@
     </section>
 
     <footer class="page-footer">
-      <p>Find me on</p>
+      <p><span class="footer-text">Find me on</span></p>
 
       <div class="social-media">
-        <img src="images/twitter.svg" alt="twitter-icon" class="twitter-icon" />
-        <img src="./images/linked-in.svg" alt="linked-in icon" />
-        <img src="./images/github.svg" alt="github icon" />
+        <img
+          src="images/twitter.svg"
+          alt="twitter-icon"
+          class="twitter-icon social-media-icons"
+        />
+        <img
+          src="images/linked-in.svg"
+          alt="linked-in icon"
+          class="social-media-icons"
+        />
+        <img
+          src="images/github.svg"
+          alt="github icon"
+          class="social-media-icons"
+        />
       </div>
     </footer>
     <script src="js/tota11y.min.js"></script>

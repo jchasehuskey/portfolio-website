@@ -18,9 +18,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-  <body>
+  <body class="body-contact">
     <header class="page-header">
       <p class="page-header_item page-header_name">Chase Huskey</p>
       <!-- <img src="http://via.placeholder.com/200x70" alt="logo" /> -->
@@ -43,53 +43,80 @@
       </nav>
     </header>
 
-    <h1 class="block-content__header">Contact</h1>
-    <div class="block-content__text">
-      My GmbH<br />
-      Denver,Co <br />
-      <br />
-      Prefer a phone chat?
-      <a
-        class="block-content__link link-button link-button-small"
-        href="tel:8702431598"
-        >Click to call</a
-      >
-      <!-- aria-hidden:"true" -->
-      <br />
-      <!-- Place skype below: "skype:mylink" -->
-      <a
-        class="block-content__link link-button link-button-small margin-bottom"
-        href="skype:jchase.huskey"
-        target="blank"
-        >Skype me</a
-      >
-      <br />
-      <a
-        class="block-content__link link-button link-button-small"
-        href="mailto:jchase.huskey@gmail.com"
-        target="blank"
-        >Email me</a
-      ><br />
-      <a href="mailto:jchase.huskey@gmail.com">Contact me</a>
+    <h1 class="block-content-header">Contact</h1>
+
+    <hr class="line-break" />
+
+    <div class="contact-grid">
+      <img
+        src="/images/unionstation.jpg"
+        alt="image of union station"
+        class="img-union"
+      />
+
+      <div class="contact-info">
+        <h2 class="contact-box-header">Location Information</h2>
+
+        <div class="block-content__text">
+          <ion-icon name="location-outline"></ion-icon> Denver, Colorado <br />
+
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+          870-243-1598
+
+          <br />
+          <ion-icon name="mail-outline"></ion-icon>
+          <a
+            class="contact-info-links"
+            href="mailto:jchase.huskey@gmail.com"
+            target="blank"
+            >jchase.huskey@gmail.com</a
+          >
+          <br />
+          <ion-icon name="logo-skype"></ion-icon>
+          <a
+            class="contact-info-links"
+            href="skype:jchase.huskey"
+            target="blank"
+            >Skype me</a
+          >
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2 class="contact-form-heading">Let's Connect!</h2>
+        <form
+          id="contact-form"
+          action="#"
+          method="post"
+          class="block-content__text"
+        >
+          <label for="email" class="standard-label">*Email:</label>
+          <input id="email" type="email" required />
+
+          <br />
+
+          <label for="tel" class="standard-label">Phone number: </label>
+          <input id="tel" type="tel" />
+
+          <br />
+
+          <label for="message" class="standard-label">*Message:</label>
+          <textarea id="message" maxlength="240" required></textarea>
+
+          <input type="submit" value="Send message" />
+        </form>
+      </div>
     </div>
-    <form
-      id="contact-form"
-      action="#"
-      method="post"
-      class="block-content__text"
-    >
-      <label for="email" class="standard-label">*Email:</label>
-      <input id="email" type="email" required />
 
-      <label for="tel" class="standard-label">Phone number: </label>
-      <input id="tel" type="tel" />
-
-      <label for="message" class="standard-label">*Message:</label>
-      <textarea id="message" maxlength="240" required></textarea>
-
-      <input type="submit" value="Send message" />
-    </form>
     <!-- <script src="/js/tota11y.min.js"></script> -->
     <script src="js/tota11y.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

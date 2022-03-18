@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body class="body-contact">
-    <header class="page-header">
+    <header class="page-header margin-bottom-header">
       <p class="page-header_item page-header_name">Chase Huskey</p>
       <!-- <img src="http://via.placeholder.com/200x70" alt="logo" /> -->
 
@@ -43,7 +43,7 @@
       </nav>
     </header>
 
-    <h1 class="block-content-header">Contact</h1>
+    <h2 class="block-content-header-contact">Contact</h2>
 
     <hr class="line-break" />
 
@@ -101,12 +101,30 @@
           <br />
 
           <label for="message" class="standard-label">*Message:</label>
-          <textarea id="message" maxlength="240" required></textarea>
+          <textarea
+            id="message"
+            name="message"
+            style="height: 8rem"
+            maxlength="240"
+            required
+          ></textarea>
+          <br />
 
-          <input type="submit" value="Send message" />
+          <div class="submit-button">
+            <input type="submit" value="Send message" id="submit" />
+          </div>
         </form>
       </div>
     </div>
+    <footer class="page-footer">
+      <p>Find me on</p>
+
+      <div class="social-media">
+        <img src="images/twitter.svg" alt="twitter-icon" class="twitter-icon" />
+        <img src="./images/linked-in.svg" alt="linked-in icon" />
+        <img src="./images/github.svg" alt="github icon" />
+      </div>
+    </footer>
 
     <!-- <script src="/js/tota11y.min.js"></script> -->
     <script src="js/tota11y.min.js"></script>

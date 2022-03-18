@@ -50,20 +50,23 @@
     <div class="container">
       <div class="margin-bottom_double">
         <h1 class="block-content__header">About</h1>
-        <p class="block-content__text">
+        <!-- <p class="block-content__text">
           Hello. Here's a little bit of information about myself!
+        </p> -->
+        <p class="block-content__text">
+          Recently, I have fully immersed myself into the web development world
+          and have taken multiple online courses that apply to
+          <span class="about-highlights">HTML and CSS</span>, and
+          <span class="about-highlights">Advanced CSS</span>. Now I am focusing
+          on learning <span class="about-highlights">JavaScript</span> and
+          <span class="about-highlights">node.js</span> frameworks in order to
+          secure my dream job as a full-stack developer.
         </p>
-        <ul class="block-content_list">
-          <li class="block-content__list-item">Frontend Development</li>
-          <li class="block-content__list-item">Backend Development</li>
-          <li class="block-content__list-item">Test-driven Development</li>
-          <li class="block-content__list-item">Snowboarding</li>
-        </ul>
         <a
           href="files/cv.pdf"
           class="link-button link-button-small link-resume margin-bottom"
           download
-          >Download my Resume</a
+          >Download my CV</a
         >
 
         <!-- <img src="./images/pattern2.svg" alt="pattern-img" /> -->
@@ -2139,31 +2142,38 @@
 
       <div class="about-text-container">
         <div class="about-flexbox-1 margin-bottom_double">
-          <h2 class="block-content__header">How I became a web developer</h2>
-          <p class="block-content__text">
-            From video editing, audio engineering, and now web development -
-            i've always had a knack for creating and web development gives me
-            the opportunity to utilize this creativity.
-          </p>
-          <p class="block-content__text">
-            Various tools I have worked with in my professional career prior to
-            web development include: InDesign, Adobe Illustrator, XD, Premiere
-            Pro, and Excel.
-          </p>
-          <p class="block-content__text">
-            Recently, I have fully immersed myself into the web development
-            world and have taken multiple online courses that apply to HTML and
-            CSS, Advanced CSS, JavaScript, and node.js frameworks.
-          </p>
+          <h2 class="block-content__header text-align-left">
+            Developer Journey
+          </h2>
+          <div class="para-flex-box">
+            <p class="block-content__text">
+              From video editing, audio engineering, and now web development -
+              i've always had a knack for creating and web development gives me
+              the opportunity to utilize this creativity.
+            </p>
+            <p class="block-content__text">
+              Various tools I have worked with in my professional career prior
+              to web development include: InDesign, Adobe Illustrator, XD,
+              Premiere Pro, and Excel.
+            </p>
+            <p class="block-content__text">
+              Intersted in speaking with me? I'm always looking for work and to
+              develop new skills. Click below to head to my contact page and
+              let's talk!
+            </p>
+          </div>
+          <a href="contact.html" class="link-button special link">Contact me</a>
         </div>
 
         <div class="about-flexbox-2 margin-bottom_double">
-          <h2 class="block-content__header">Experience</h2>
-          <ul class="block-content_list">
-            <li class="block-content__list-item">Frontend Development</li>
-            <li class="block-content__list-item">Backend Development</li>
-            <li class="block-content__list-item">Test-driven Development</li>
-          </ul>
+          <div class="experience-main">
+            <h2 class="block-content__header">Experience</h2>
+            <ul class="block-content_list">
+              <li class="block-content__list-item">Frontend Development</li>
+              <li class="block-content__list-item">Backend Development</li>
+              <li class="block-content__list-item">Test-driven Development</li>
+            </ul>
+          </div>
 
           <div class="logo-grid">
             <div>
@@ -2200,7 +2210,7 @@
                 alt="photoshop logo"
                 class="logo-img"
               />
-              <p>PHOTOSHOP</p>
+              <p>Photoshop</p>
             </div>
             <div>
               <img
@@ -2240,6 +2250,33 @@
             </div>
           </div>
 
+          <table>
+            <thead>
+              <tr>
+                <th>Skills</th>
+                <th>Experience</th>
+                <th>Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>3</td>
+                <td>Advanced</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>3</td>
+                <td>Advanced</td>
+              </tr>
+              <tr>
+                <td>JS</td>
+                <td>1</td>
+                <td>Beginner</td>
+              </tr>
+            </tbody>
+          </table>
+
           <!-- <p class="block-content__text">
             You can find me on the mountains every weekend with my board
           </p>
@@ -2249,33 +2286,27 @@
         </div>
       </div>
     </div>
+    <footer class="page-footer">
+      <p><span class="footer-text">Find me on</span></p>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Skills</th>
-          <th>Experience</th>
-          <th>Level of Expertise</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>HTML</td>
-          <td>3</td>
-          <td>Advanced</td>
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>2</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>Javascript</td>
-          <td>1</td>
-          <td>Beginner</td>
-        </tr>
-      </tbody>
-    </table>
+      <div class="social-media">
+        <img
+          src="images/twitter.svg"
+          alt="twitter-icon"
+          class="twitter-icon social-media-icons"
+        />
+        <img
+          src="images/linked-in.svg"
+          alt="linked-in icon"
+          class="social-media-icons"
+        />
+        <img
+          src="images/github.svg"
+          alt="github icon"
+          class="social-media-icons"
+        />
+      </div>
+    </footer>
 
     <script src="js/tota11y.min.js"></script>
   </body>

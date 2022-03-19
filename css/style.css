@@ -407,6 +407,7 @@ td {
 
 .body-projects {
   background-color: var(--tertiary-color);
+  background-color: var(--background-color);
 }
 
 /* GRID */

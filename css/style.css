@@ -814,7 +814,7 @@ GENERAL CSS
   /* about.html responsive edits */
 
   .container {
-    width: 40rem;
+    width: 30rem;
   }
 
   .about-text-container {
@@ -832,6 +832,11 @@ GENERAL CSS
 
   .logo-grid {
     column-gap: 0;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.8rem;
   }
 
   /* myProject.html responsive edits */

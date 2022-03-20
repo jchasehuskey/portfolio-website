@@ -839,4 +839,27 @@ GENERAL CSS
   .project-list {
     grid-template-columns: 1fr;
   }
+
+  /* contact.html responsive edits */
+
+  .contact-grid {
+    grid-template-columns: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-union {
+    display: inherit;
+    width: 30rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .contact-form {
+    padding: 2rem 0.5rem;
+    width: 30rem;
+  }
+
+  .contact-form textarea {
+    width: 28rem;
+  }
 }

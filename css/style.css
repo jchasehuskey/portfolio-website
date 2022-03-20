@@ -815,11 +815,13 @@ GENERAL CSS
 
   .container {
     width: 30rem;
+    padding: 0;
   }
 
   .about-text-container {
     flex-direction: column;
     margin-top: 0;
+    width: 30rem;
   }
 
   .about-flexbox-1 {
@@ -828,6 +830,7 @@ GENERAL CSS
 
   .about-flexbox-2 {
     width: 100%;
+    /* width: 30rem; */
   }
 
   .logo-grid {

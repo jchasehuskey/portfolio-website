@@ -771,6 +771,90 @@ GENERAL CSS
   .project-list {
     grid-template-columns: 1fr 1fr;
   }
+
+  .page-header {
+    margin-bottom: 2.8rem;
+
+    padding: 35px 62px;
+
+    /* may good, maybe not */
+    /* width: 38rem; */
+  }
+
+  .section-index {
+    margin-bottom: 2rem;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile_portrait {
+    display: inherit;
+    width: 55%;
+    margin-bottom: 1.6rem;
+  }
+
+  .block-content_index {
+    margin-right: 0;
+  }
+
+  /* about.html responsive edits */
+
+  .container {
+    width: 30rem;
+    padding: 0;
+  }
+
+  .about-text-container {
+    flex-direction: column;
+    margin-top: 0;
+    width: 30rem;
+  }
+
+  .about-flexbox-1 {
+    width: 100%;
+  }
+
+  .about-flexbox-2 {
+    width: 100%;
+    /* width: 30rem; */
+  }
+
+  .logo-grid {
+    column-gap: 0;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  /* myProject.html responsive edits */
+
+  /* contact.html responsive edits */
+
+  .contact-grid {
+    grid-template-columns: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-union {
+    display: inherit;
+    width: 40rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .contact-form {
+    padding: 2rem 0.5rem;
+    width: 40rem;
+    margin-top: 3.6rem;
+  }
+
+  .contact-form textarea {
+    width: 38rem;
+  }
 }
 
 @media all and (max-width: 750px) {
@@ -785,7 +869,99 @@ GENERAL CSS
   h1 {
     font-size: 2.2rem;
   }
+
+  /* new media query */
+
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page-header {
+    margin-bottom: 2.8rem;
+
+    padding: 35px 62px;
+
+    /* may good, maybe not */
+    /* width: 38rem; */
+  }
+
+  .section-index {
+    margin-bottom: 2rem;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile_portrait {
+    display: inherit;
+    width: 55%;
+    margin-bottom: 1.6rem;
+  }
+
+  .block-content_index {
+    margin-right: 0;
+  }
+
+  /* about.html responsive edits */
+
+  .container {
+    width: 30rem;
+    padding: 0;
+  }
+
+  .about-text-container {
+    flex-direction: column;
+    margin-top: 0;
+    width: 30rem;
+  }
+
+  .about-flexbox-1 {
+    width: 100%;
+  }
+
+  .about-flexbox-2 {
+    width: 100%;
+    /* width: 30rem; */
+  }
+
+  .logo-grid {
+    column-gap: 0;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  /* myProject.html responsive edits */
+
+  /* contact.html responsive edits */
+
+  .contact-grid {
+    grid-template-columns: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-union {
+    display: inherit;
+    width: 40rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .contact-form {
+    padding: 2rem 0.5rem;
+    width: 40rem;
+    margin-top: 3.6rem;
+  }
+
+  .contact-form textarea {
+    width: 38rem;
+  }
 }
+
+/* SEPERATION888888*******************************************************8888888888888888888888********************************************** */
 
 @media all and (max-width: 500px) {
   /* Index.html responsive edits */
@@ -850,6 +1026,24 @@ GENERAL CSS
 
   .project-list {
     grid-template-columns: 1fr;
+  }
+
+  .project-list:hover .grid_item {
+    filter: none;
+    opacity: 0.5;
+    transform: scale(0.98);
+    transform: scale(1);
+  }
+
+  .project-list:hover .grid_item:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: none;
+    border: 1px solid var(--dark-orange);
+
+    /* padding only necessary if you don't want box to increase in size by one pixel due to border */
+    padding: 1.9rem 0.9rem;
   }
 
   /* contact.html responsive edits */

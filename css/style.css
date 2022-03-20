@@ -367,6 +367,11 @@ About.html
 
 .logo-img {
   width: 4rem;
+  transition: all 0.5s;
+}
+
+.logo-img:hover {
+  transform: rotate(360deg) scale(1.3);
 }
 
 .custom-height {
@@ -781,5 +786,29 @@ GENERAL CSS
 @media all and (max-width: 500px) {
   .project-list {
     grid-template-columns: 1fr;
+  }
+
+  /* Index.html responsive edits */
+
+  .page-header {
+    margin-bottom: 2.8rem;
+  }
+
+  .section-index {
+    margin-bottom: 2rem;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile_portrait {
+    display: inherit;
+    width: 55%;
+    margin-bottom: 1.6rem;
+  }
+
+  .block-content_index {
+    margin-right: 0;
   }
 }

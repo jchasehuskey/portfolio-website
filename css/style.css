@@ -638,10 +638,12 @@ textarea {
   background-color: #ffe066;
   border: none;
   border-radius: 0.9rem;
+  background-color: #00ffff;
 }
 
 #submit:hover {
   background-color: #ffec99;
+  background-color: #00e6e6;
   cursor: pointer;
 }
 

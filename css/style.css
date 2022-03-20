@@ -639,11 +639,13 @@ textarea {
   border: none;
   border-radius: 0.9rem;
   background-color: #00ffff;
+  background-color: #f59f00;
 }
 
 #submit:hover {
   background-color: #ffec99;
   background-color: #00e6e6;
+  background-color: #dd8f00;
   cursor: pointer;
 }
 

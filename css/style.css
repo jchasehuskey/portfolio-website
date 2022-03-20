@@ -784,14 +784,13 @@ GENERAL CSS
 }
 
 @media all and (max-width: 500px) {
-  .project-list {
-    grid-template-columns: 1fr;
-  }
-
   /* Index.html responsive edits */
 
   .page-header {
     margin-bottom: 2.8rem;
+
+    /* may good, maybe not */
+    /* width: 38rem; */
   }
 
   .section-index {
@@ -810,5 +809,34 @@ GENERAL CSS
 
   .block-content_index {
     margin-right: 0;
+  }
+
+  /* about.html responsive edits */
+
+  .container {
+    width: 40rem;
+  }
+
+  .about-text-container {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .about-flexbox-1 {
+    width: 100%;
+  }
+
+  .about-flexbox-2 {
+    width: 100%;
+  }
+
+  .logo-grid {
+    column-gap: 0;
+  }
+
+  /* myProject.html responsive edits */
+
+  .project-list {
+    grid-template-columns: 1fr;
   }
 }

@@ -857,6 +857,7 @@ GENERAL CSS
   .contact-form {
     padding: 2rem 0.5rem;
     width: 30rem;
+    margin-top: 3.6rem;
   }
 
   .contact-form textarea {

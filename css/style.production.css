@@ -466,6 +466,9 @@ About.html
 
   /* IE 11 */
   align-content: center;
+  -ms-flex-line-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .logo-img {

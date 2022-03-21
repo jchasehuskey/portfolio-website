@@ -1074,6 +1074,7 @@ GENERAL CSS
   }
 }
 
+/* Targets IE11 */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .project-list {
     grid: none;
@@ -1084,5 +1085,9 @@ GENERAL CSS
 
   .grid_item {
     margin-top: 2rem;
+  }
+
+  .social-media {
+    justify-content: center;
   }
 }

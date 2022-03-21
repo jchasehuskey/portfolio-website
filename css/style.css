@@ -1137,5 +1137,16 @@ GENERAL CSS
     .about-flexbox-2 {
       margin-right: 2.4rem;
     }
+
+    .experience-main {
+      margin-bottom: 3.2rem;
+    }
+
+    .logo-grid {
+      margin-bottom: 3.2rem;
+    }
+
+    /* table {
+    } */
   }
 }

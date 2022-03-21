@@ -1306,5 +1306,9 @@ SEPERATION**********************************************************************
     .logo-grid {
       margin-bottom: 3.2rem;
     }
+    .github-footer {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
   }
 }

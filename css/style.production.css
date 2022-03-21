@@ -1102,7 +1102,7 @@ SEPERATION**********************************************************************
   .section-index {
     margin-bottom: 2rem;
 
-    width: 48rem;
+    /* width: 30rem; */
   }
 
   .profile {

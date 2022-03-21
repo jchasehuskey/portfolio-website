@@ -1096,4 +1096,11 @@ GENERAL CSS
   .about-text-container {
     justify-content: space-between;
   }
+  .about-flexbox-1 {
+    margin-right: 2.4rem;
+  }
+
+  .about-flexbox-2 {
+    margin-right: 2.4rem;
+  }
 }

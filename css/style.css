@@ -511,7 +511,7 @@ td {
   box-shadow: 0 0.5rem 1.5rem var(--box-shadow-grey);
 }
 
-.item-1 {
+/* .item-1 {
   grid-column: 1;
   -ms-grid-column: 1;
   -ms-grid-row: 1;
@@ -542,7 +542,7 @@ td {
   -ms-grid-column: 1;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
-}
+} */
 
 /* blur effect */
 

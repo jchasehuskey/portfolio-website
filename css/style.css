@@ -511,6 +511,39 @@ td {
   box-shadow: 0 0.5rem 1.5rem var(--box-shadow-grey);
 }
 
+.item-1 {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+.item-2 {
+  grid-column: 2;
+  -ms-grid-column: 2;
+  -ms-grid-row: 1;
+}
+.item-3 {
+  grid-column: 1;
+  -ms-grid-column: 2;
+  -ms-grid-row: 2;
+}
+.item-4 {
+  grid-column: 2;
+  -ms-grid-column: 2;
+  -ms-grid-row: 2;
+}
+.item- 5 {
+  grid-column: 3;
+  -ms-grid-column: 3;
+  -ms-grid-row: 1;
+}
+
+.item-6 {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+}
+
 /* blur effect */
 
 .project-list:hover .grid_item {

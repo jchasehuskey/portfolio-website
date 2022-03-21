@@ -481,8 +481,6 @@ About.html
   transition: all 0.5s;
 
   /* new for IE */
-  display: inline-block;
-  margin: 1rem;
 }
 
 .img-1 {

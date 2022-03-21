@@ -470,6 +470,10 @@ About.html
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+
+  /* new for IE */
+  display: inline-block;
+  margin: 1rem;
 }
 
 .logo-img:hover {

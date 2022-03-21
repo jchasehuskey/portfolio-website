@@ -1076,6 +1076,7 @@ GENERAL CSS
 
 /* Targets IE11 */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* projects.html */
   .project-list {
     grid: none;
 
@@ -1087,20 +1088,28 @@ GENERAL CSS
     margin-top: 2rem;
   }
 
+  /* Footer */
   .social-media {
     justify-content: center;
   }
 
   /* about.html */
 
-  .about-text-container {
-    justify-content: space-between;
-  }
   .about-flexbox-1 {
     margin-right: 2.4rem;
   }
 
   .about-flexbox-2 {
+    margin-right: 2.4rem;
+  }
+
+  /* Index.html */
+
+  .profile img {
+    margin-right: 2.4rem;
+  }
+
+  .block-content_index {
     margin-right: 2.4rem;
   }
 }

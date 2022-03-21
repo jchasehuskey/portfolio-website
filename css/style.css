@@ -1077,5 +1077,6 @@ GENERAL CSS
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .project-list {
     grid-template-columns: 1fr;
+    grid-row: auto;
   }
 }

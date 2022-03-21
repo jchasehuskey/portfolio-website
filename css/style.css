@@ -1073,3 +1073,9 @@ GENERAL CSS
     width: 28rem;
   }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .project-list {
+    flex-direction: column;
+  }
+}

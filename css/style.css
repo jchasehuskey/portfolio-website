@@ -1088,7 +1088,7 @@ GENERAL CSS
   }
 
   .social-media {
-    /* justify-content: center; */
-    text-align: center;
+    justify-content: center;
+    /* text-align: center; */
   }
 }

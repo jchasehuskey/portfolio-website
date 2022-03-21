@@ -818,6 +818,13 @@ GENERAL CSS
   }
 } */
 
+@media all and (min-width: 750px) and (max-width: 1000px) {
+  .container {
+    width: 75rem;
+  }
+  /* for about.html large screens */
+}
+
 @media all and (min-width: 500px) and (max-width: 750px) {
   .project-list {
     grid-template-columns: 1fr 1fr;

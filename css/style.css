@@ -1089,5 +1089,17 @@ GENERAL CSS
 
   .social-media {
     justify-content: center;
+    text-align: center;
   }
 }
+
+/* .social-media {
+  display: flex;
+  gap: 2rem;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 9px;
+  background-color: var(--dark-orange);
+  align-items: center;
+} */

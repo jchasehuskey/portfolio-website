@@ -463,6 +463,9 @@ About.html
   -ms-flex-align: center;
   align-items: center;
   /* margin-bottom: 6.4rem; */
+
+  /* IE 11 */
+  align-content: center;
 }
 
 .logo-img {

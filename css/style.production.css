@@ -1216,6 +1216,10 @@ SEPERATION**********************************************************************
     margin-right: 2.4rem;
   }
 
+  .logo-grid {
+    justify-content: center;
+  }
+
   /* Index.html */
 
   .profile img {

@@ -1078,5 +1078,6 @@ GENERAL CSS
   .project-list {
     grid-template-columns: 1fr;
     grid-row: auto;
+    grid: none;
   }
 }

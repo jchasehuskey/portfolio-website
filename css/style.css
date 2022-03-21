@@ -1082,7 +1082,7 @@ GENERAL CSS
     flex-direction: column;
   }
 
-  .grid-item {
+  .grid_item {
     margin-top: 2rem;
   }
 }

@@ -470,7 +470,7 @@ About.html
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-pack: center;
-  height: 100;
+  height: 100%;
 }
 
 .logo-img {

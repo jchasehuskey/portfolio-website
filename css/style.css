@@ -879,6 +879,8 @@ GENERAL CSS
   .page-header {
     margin-bottom: 2.8rem;
 
+    padding: 35px 30px;
+
     /* may good, maybe not */
     /* width: 38rem; */
   }

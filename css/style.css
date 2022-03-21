@@ -1117,3 +1117,25 @@ GENERAL CSS
     margin-top: 20rem;
   }
 }
+
+/* Safari Browser */
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .profile img {
+      margin-right: 2.4rem;
+    }
+
+    .block-content_index {
+      margin-right: 2.4rem;
+    }
+
+    .about-flexbox-1 {
+      margin-right: 2.4rem;
+    }
+
+    .about-flexbox-2 {
+      margin-right: 2.4rem;
+    }
+  }
+}

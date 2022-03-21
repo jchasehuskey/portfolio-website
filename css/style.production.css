@@ -919,7 +919,50 @@ GENERAL CSS
   .container {
     width: 75rem;
   }
-  /* for about.html large screens */
+
+  .about-flexbox-1 {
+    width: 50%;
+  }
+
+  .para-flex-box {
+    gap: 1.8rem;
+  }
+
+  .para-flex-box p {
+    font-size: 1.65rem;
+  }
+
+  .about-flexbox-2 {
+    width: 50%;
+  }
+
+  .block-content_list {
+    margin-bottom: 3.2rem;
+  }
+
+  .logo-grid {
+    margin-bottom: 3.2rem;
+  }
+
+  .img-union {
+    display: inherit;
+    width: 40rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .contact-form {
+    padding: 1rem 0.5rem;
+    width: 36rem;
+    padding-bottom: 0;
+  }
+
+  .contact-form textarea {
+    width: 30rem;
+  }
+
+  .submit-button {
+    margin-bottom: 0;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -1214,10 +1257,6 @@ SEPERATION**********************************************************************
 
   .about-flexbox-2 {
     margin-right: 2.4rem;
-  }
-
-  .logo-grid {
-    margin-left: 9.6rem;
   }
 
   /* Index.html */

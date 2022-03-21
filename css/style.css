@@ -1089,6 +1089,11 @@ GENERAL CSS
 
   .social-media {
     justify-content: center;
-    /* text-align: center; */
+  }
+
+  /* about.html */
+
+  .about-text-container {
+    justify-content: space-between;
   }
 }

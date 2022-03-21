@@ -465,7 +465,7 @@ About.html
   /* margin-bottom: 6.4rem; */
 
   /* IE 11 */
-  align-content: center;
+  /* align-content: center;
   -ms-flex-line-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -473,6 +473,8 @@ About.html
   height: 100%;
   margin: 0 auto;
   text-align: center;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: center; */
 }
 
 .logo-img {

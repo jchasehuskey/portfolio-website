@@ -1081,4 +1081,8 @@ GENERAL CSS
     display: flex;
     flex-direction: column;
   }
+
+  .grid-item {
+    margin-top: 2rem;
+  }
 }

@@ -1088,6 +1088,10 @@ SEPERATION**********************************************************************
     margin-top: 20rem;
   }
 
+  .logo-grid {
+    display: flex;
+  }
+
   /* .logo-grid {
     margin-left: 8rem;
   } */

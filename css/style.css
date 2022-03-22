@@ -1088,9 +1088,14 @@ SEPERATION**********************************************************************
     margin-top: 20rem;
   }
 
-  /* .logo-grid {
-    margin-left: 8rem;
-  } */
+  .block-content_list {
+    margin-bottom: 3.2rem;
+  }
+
+  .logo-grid {
+    margin-left: 32rem;
+    margin-bottom: 3.2rem;
+  }
 }
 
 /* Safari Browser */

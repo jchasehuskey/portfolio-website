@@ -1276,8 +1276,13 @@ SEPERATION**********************************************************************
     margin-top: 20rem;
   }
 
+  .block-content_list {
+    margin-bottom: 3.2rem;
+  }
+
   .logo-grid {
-    margin-left: 30rem;
+    margin-left: 32rem;
+    margin-bottom: 3.2rem;
   }
 }
 

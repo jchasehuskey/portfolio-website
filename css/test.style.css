@@ -127,15 +127,13 @@ h1 {
 
 .body-index {
   background-color: #2e2e2e;
-  background-color: #0e0e0e;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
-  transition: all 2s;
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-index:hover {
-  background-color: #2e2e2e;
-}
+/* .body-index:hover {
+  background-color: var(--background-color);
+} */
 
 .page-header {
   display: -webkit-box;
@@ -285,16 +283,14 @@ h1 {
 About.html
 ******************* */
 .body-about {
-  /* background-color: var(--background-color); */
-  background-color: #0e0e0e;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
-  transition: all 2s;
+  background-color: #2e2e2e;
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-about:hover {
-  background-color: #2e2e2e;
-}
+/* .body-about:hover {
+  background-color: var(--background-color);
+} */
 
 .container {
   width: 100rem;
@@ -515,15 +511,13 @@ td {
 .body-projects {
   background-color: #1a1a1a;
   background-color: #2e2e2e;
-  background-color: #0e0e0e;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
-  transition: all 2s;
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-projects:hover {
-  background-color: #2e2e2e;
-}
+/* .body-projects:hover{
+  background-color: var(--background-color);
+} */
 
 /* GRID */
 /* start grid fallback */
@@ -740,16 +734,15 @@ a:link {
 ***************************/
 
 .body-contact {
-  /* background-color: var(--tertiary-color); */
-  background-color: #0e0e0e;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
-  transition: all 2s;
+  background-color: #1a1a1a;
+  background-color: #2e2e2e;
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-contact:hover {
-  background-color: #2e2e2e;
-}
+/* .body-contact:hover {
+  background-color: var(--background-color);
+} */
 
 .block-content-header-contact {
   margin-left: 3.2rem;

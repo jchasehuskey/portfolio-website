@@ -60,10 +60,6 @@ h1 {
   font-weight: var(--heavy-font-weight);
 }
 
-header {
-  z-index: 1;
-}
-
 /* Navigation -ALL PAGES */
 
 .nav-list {
@@ -119,13 +115,13 @@ header {
 
 .body-index {
   background-color: var(--background-color);
-  background-color: #0e0e0e;
-  transition: all 2s;
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-index:hover {
+/* .body-index:hover {
   background-color: var(--background-color);
-}
+} */
 
 .page-header {
   display: flex;
@@ -243,14 +239,14 @@ header {
 About.html
 ******************* */
 .body-about {
-  /* background-color: var(--background-color); */
-  background-color: #0e0e0e;
-  transition: all 2s;
+  background-color: var(--background-color);
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-about:hover {
+/* .body-about:hover {
   background-color: var(--background-color);
-}
+} */
 
 .container {
   width: 100rem;
@@ -433,13 +429,13 @@ td {
 .body-projects {
   background-color: var(--tertiary-color);
   background-color: var(--background-color);
-  background-color: #0e0e0e;
-  transition: all 2s;
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-projects:hover {
+/* .body-projects:hover{
   background-color: var(--background-color);
-}
+} */
 
 /* GRID */
 /* start grid fallback */
@@ -608,14 +604,15 @@ a:link {
 ***************************/
 
 .body-contact {
-  /* background-color: var(--tertiary-color); */
-  background-color: #0e0e0e;
-  transition: all 2s;
+  background-color: var(--tertiary-color);
+  background-color: var(--background-color);
+  /* background-color: #0e0e0e;
+  transition: all 2s; */
 }
 
-.body-contact:hover {
+/* .body-contact:hover {
   background-color: var(--background-color);
-}
+} */
 
 .block-content-header-contact {
   margin-left: 3.2rem;

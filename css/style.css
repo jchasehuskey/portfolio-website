@@ -60,6 +60,10 @@ h1 {
   font-weight: var(--heavy-font-weight);
 }
 
+header {
+  z-index: 1;
+}
+
 /* Navigation -ALL PAGES */
 
 .nav-list {

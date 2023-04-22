@@ -501,6 +501,7 @@ td {
   background-color: #2e2e2e;
 }
 
+
 /* GRID */
 /* start grid fallback */
 .grid__item {
@@ -546,6 +547,7 @@ td {
 .grid_item {
   /* background-color: var(--light-grey); */
   background-color: #1a1a1a;
+  background-color: red !important;
   padding: 2rem 1rem;
   /* border-radius: 1.8rem; */
 

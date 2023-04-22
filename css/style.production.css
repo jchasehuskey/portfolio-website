@@ -563,6 +563,19 @@ td {
  width:50%;
 }
 
+.chatNow-img{
+  width:12%;
+
+}
+
+.meet-img{
+  width:50%;
+}
+
+.pokedex-img{
+  width:50%;
+}
+
 .details-group{
   display:flex;
   justify-content: space-between;

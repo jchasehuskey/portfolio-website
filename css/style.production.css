@@ -502,24 +502,6 @@ td {
 }
 
 
-.angular-bg{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.angular-proj{
-  opacity: 1;
-  background-image: url(../images/angular.png);
-}
-
 /* GRID */
 /* start grid fallback */
 .grid__item {
@@ -565,6 +547,7 @@ td {
 .grid_item {
   /* background-color: var(--light-grey); */
   background-color: #1a1a1a;
+  background-color: red;
   padding: 2rem 1rem;
   /* border-radius: 1.8rem; */
 

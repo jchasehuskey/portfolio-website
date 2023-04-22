@@ -543,6 +543,21 @@ td {
   gap: 2rem;
 }
 
+.angular-img{
+  width:50%;
+ }
+ 
+ .details-group{
+   display:flex;
+   justify-content: space-between;
+   margin-left:2rem;
+   margin-right:2rem;
+ }
+ 
+ .cta{
+   margin-top:90px;
+ }
+
 .grid_item {
   /* background-color: var(--light-grey); */
   background-color: #1a1a1a;

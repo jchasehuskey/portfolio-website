@@ -56,6 +56,10 @@ h1 {
 
 /* Navigation -ALL PAGES */
 
+.main-navigation{
+  /* width:100vw; */
+}
+
 .nav-list {
   list-style: none;
   /* this class is on unordered list element */
@@ -588,6 +592,7 @@ td {
   margin-top:90px;
 }
 
+
 .section-proj{
   margin:2rem;
 }
@@ -651,7 +656,7 @@ td {
   color: #f59f0062;
 }
 
-.grid_item a:hover::after {
+.grid_item a.cta:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -660,11 +665,11 @@ td {
   transform-origin: left;
 }
 
-.grid_item a {
+.grid_item a.cta {
   position: relative;
 }
 
-.grid_item a::after {
+.grid_item a.cta::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -685,7 +690,7 @@ td {
   transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
 }
 
-.grid_item:hover a::after {
+.grid_item:hover a.cta::after {
   content: "";
   position: absolute;
   width: 100%;

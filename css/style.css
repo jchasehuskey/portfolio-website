@@ -419,6 +419,11 @@ td {
   background-color: var(--background-color);
 }
 
+.section-class{
+  margin-left:2rem;
+  margin-right:2rem;
+}
+
 /* GRID */
 /* start grid fallback */
 .grid__item {
@@ -796,8 +801,6 @@ GENERAL CSS
 @media all and (min-width: 500px) and (max-width: 750px) {
   .project-list {
     grid-template-columns: 1fr 1fr;
-    margin-left:2rem;
-    margin-right:2rem;
   }
 
   .page-header {

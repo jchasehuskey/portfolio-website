@@ -326,6 +326,7 @@ About.html
   display: -ms-flexbox;
   display: flex;
   gap: 3.2rem;
+  margin-top:0 !important
   /* margin-top: 8.8rem; */
 }
 

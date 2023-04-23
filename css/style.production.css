@@ -593,8 +593,8 @@ td {
  width:50%;
 }
 
-.chatNow-img{
-  width:12%;
+.chatNow1-img{
+  width:16%;
 
 }
 
@@ -676,6 +676,19 @@ td {
   background-color: #000;
 
 }
+
+.grid_item.item-4 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid_item.item-4:hover img {
+  transform: scale(1.6);
+  /* transform: translate(-50%, -50%); */
+  left: 50%;
+  top: 50%;
+}
+
+
 
 
 

@@ -20,6 +20,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link rel="stylesheet" type="text/css" href="css/newcss.css" />
     <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
 
     <!-- <link rel="stylesheet" type="text/css" href="css/style2.css" /> -->
@@ -40,11 +41,11 @@
           <li role="presentation">
             <a href="index.html" class="nav-links">Home</a>
           </li>
-          <li role="presentation">
-            <a href="about.html" class="nav-links">About me</a>
+           <li role="presentation">
+            <a href="projects.html" class="nav-links">My projects</a>
           </li>
           <li role="presentation">
-            <a href="projects.html" class="nav-links">My projects</a>
+            <a href="about.html" class="nav-links">About me</a>
           </li>
           <li role="presentation">
             <a href="contact.html" class="nav-links">Contact</a>
@@ -54,6 +55,98 @@
     </header>
     <section>
       <h1>Projects</h1>
+     
+      <h1 class="automation-header">Unlocking the door to Automation</h1>
+         <div class="marketing-project-summary">  
+            <h2>Automation > Lifecycle Stages > Email Campaigns</h2>
+        
+            <h3>The Need</h3>
+            <p>In the evershifting landscapes of startup environments, you need to be able to shift priorities quickly. As our medical device company grew, so did our customer base, we realized that there was an untapped major player in the market - Skilled Nursing Facilities. These facilities are managed by larger players, who typically have a number of facilities under their belt. This drastically changed our target audience as we could see a clear path to major returns on investment.</p>
+            <h3>The Solution</h3>
+         </div>
+         <div class="solution-container">
+          <div class="solution-parts">
+                <div class="meat">
+                  <div class="meat-container1">
+                    <div class="solution-title">Lead Scoring</div>
+                    <div class="solution-content">
+                      <p>Lead scoring is a process used to rank leads based on their behavior and engagement with your business. By assigning scores to actions like website visits, email opens, and form submissions, you can prioritize which leads are most likely to convert. This method helps sales teams focus on high-value opportunities, improving efficiency and increasing conversion rates.</p>
+                      <br>
+                      <p>Lead scoring can be customized to suit your business goals, adjusting scores based on factors like job title, company size, and engagement with key content. Regularly updating your scoring model ensures you’re accurately identifying the leads most likely to result in sales.</p>
+                    </div>
+                  </div>
+                  <div class="meat-container2">
+                    <div class="solution-img">
+                      <img src="images/snf-leadscore5.png" alt="img of lead score">
+                      <img src="images/snf-leadscore4.png" alt="img of lead score">
+                      <img src="images/SNF-campaign-list.png" alt="img of lead score">
+                    </div>
+                  </div>
+                </div>
+          </div>
+         </div>
+          <div class="solution-container">
+            <div class="solution-parts">
+            <div class="meat">
+              <div class="meat-container2">
+                 <div class="solution-img2">
+                  <img src="images/snf-campaings2.png" alt="img of lead score">
+                  <img src="images/snf-educated-emails.png" alt="img of lead score">
+                 </div>
+              </div>
+              <div class="meat-container1">
+                <div class="solution-title">Lifecycle Attributions</div>
+              <div class="solution-content">placeholder</div>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+
+
+
+          <div class="solution-container">
+              <div class="solution-parts">
+                <div class="meat">
+                  <div class="meat-container1">
+                    <div class="solution-title">Automation Tree</div>
+                    <div class="solution-content">placeholder</div>
+                  </div>
+                  <div class="meat-container2">
+                    <div class="solution-img4">
+                      <img src="images/SNF Lead Generation.png" alt="img of lead score">
+                      <img src="images/snf-lead-gen-close.png" alt="img of lead score">
+                      <img src="images/snf-lead-gen-close-2.png" alt="img of lead score">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        
+          <div class="solution-container">
+            <div class="solution-parts">
+              <div class="meat">
+                <div class="meat-container2">
+                  <div class="solution-img3">
+                    <img src="images/snf-emails4.png" alt="img of lead score">
+                    <img src="images/snf-emails3.png" alt="img of lead score">
+                    <img src="images/snf-emails2.png" alt="img of lead score">
+                    <img src="images/snf-emails.png" alt="img of lead score">
+                  </div>
+                </div>
+                <div class="meat-container1">
+                  <div class="solution-title">Drip campaigns</div>
+                <div class="solution-content">placeholder</div>
+                </div>
+              </div>
+           </div>
+          </div>
+
+          
+       
+
+
+      </div>
       <div class="project-list">
         <div class="grid_item item-1">
           <h2>Pokedex API application</h2>
@@ -136,5 +229,26 @@
       </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const solutionContainers = document.querySelectorAll('.solution-container');
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('show');
+              observer.unobserve(entry.target); // Stop observing once the animation has been triggered
+            }
+          });
+        }, {
+          threshold: 0.1 // Triggers the animation when 10% of the element is visible
+        });
+
+        solutionContainers.forEach(container => {
+          observer.observe(container);
+        });
+      });
+  </script>
+
   </body>
 </html>

@@ -18,6 +18,27 @@
     border-radius:9px;
 }
 
+.project-type{
+    color:#fff;
+}
+.workflow{
+    color:#5ec7cc;
+    margin-top:5px;
+}
+
+.tools{
+    margin-top:10px;
+    color:#f3b673;
+}
+
+.tools-used{
+    color:#f3b673;
+}
+
+.project-summary-paragraph{
+    color:#fff;
+}
+
 
 
 .solution-container{
@@ -187,4 +208,16 @@
     grid-column: 1 / span 2; /* Last image spans both columns */
     grid-row: 2; /* Last image in the second row */
     width: 100%;
+}
+
+.campaign-list{
+    text-decoration:none;
+    list-style:none;
+    color:#f3b673;
+    font-weight: 900;
+    font-size:24px;
+}
+
+.campaign-list li{
+    margin-bottom:10px;
 }

@@ -253,6 +253,47 @@ h1 {
   transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
 }
 
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hide dropdown menu by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  min-width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+/* Style dropdown links */
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Show the dropdown when hovering over "My Projects" */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Change link color on hover */
+.dropdown-menu a:hover {
+  background-color: #f4f4f4;
+}
+
+
 .block-content {
   margin-bottom: 3.2rem;
 }
